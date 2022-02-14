@@ -1,0 +1,22 @@
+{
+  "name": "belodiscordbot",
+  "version": "1.0.0",
+  "description": "Bot de discord que usa la api de binance y belo.app para mostrar precios y conversiones",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rm -r scratch && mkdir scratch && node index.js"
+  },
+  "author": "Tomas <hi@tdim.tk>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "binance-node-api": "^0.2.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2",
+    "node-binance-api": "^0.13.1",
+    "node-fetch": "^3.2.0",
+    "node-localstorage": "^2.2.1"
+  }
+}
