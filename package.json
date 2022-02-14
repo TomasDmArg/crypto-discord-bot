@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "rm -r scratch && mkdir scratch && node index.js"
+    "dev": "rm -r scratch && mkdir scratch && node index.js",
+    "start": "node index.js"
   },
-  "author": "Tomas <hi@tdim.tk>",
+  "author": "Tomas <info@tmdm.com.ar>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
